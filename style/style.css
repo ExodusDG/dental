@@ -48,7 +48,7 @@ a {
 }
 
 .menuList {
-    max-width: 1250px;
+    max-width: 1239px;
     margin: 0 auto;
     width: 100%;
 }
@@ -67,8 +67,8 @@ a {
 
 .menuList ul {
     display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
 }
 
 .menuList>nav {
@@ -320,18 +320,21 @@ a {
     font-size: 36px;
     letter-spacing: 1.6px;
     line-height: 50px;
-    margin-bottom: 21px;
+    margin-bottom: 15px;
     text-transform: none;
     font-family: 'ClassicalGaramondBT';
+    color: #453f3f;
 
 }
 
 .itemBlockDesc {
     line-height: 28px;
     margin: 0 auto 16px;
-    max-width: 388px;
+    max-width: 348px;
     letter-spacing: 1px;
     color: #453f3f;
+    font-size: 14px;
+    font-family: 'ScalaSansOT';
 }
 
 .itemBlockButton {
@@ -378,7 +381,7 @@ a {
 .tabsMenu p {
     color: #626262;
     font-family: 'ScalaSansOT';
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 2.08px;
     line-height: 14px;
     padding: 14px 0 7px;
@@ -408,6 +411,7 @@ a {
     margin: 0 auto;
     color: #453f3f;
     font-size: 14px;
+
     line-height: 1.6;
     letter-spacing: 1px;
     text-align: center;
@@ -415,7 +419,9 @@ a {
     opacity: 0;
     transition: 0.3s;
 }
-
+.tabItem p {
+    font-family: 'ScalaSansOT' !important;
+}
 .tabVisible {
     display: block;
     opacity: 1;
@@ -486,6 +492,7 @@ a {
     line-height: 20px;
     min-height: 40px;
     color: #c1c1c1;
+    font-family: 'ScalaSansOT';
 }
 
 .swiper-button-prev {
@@ -641,6 +648,7 @@ a {
     font-family: 'ScalaSansOT';
     font-size: 14px;
     margin-bottom: 30px;
+    max-width: 400px;
 }
 
 .mainButton {
@@ -655,6 +663,7 @@ a {
 
 .joinText {
     position: relative;
+    width: 100%;
 }
 
 .joinText::after {
@@ -678,7 +687,7 @@ a {
 
 .infLeft {
     width: 100%;
-    max-width: 500px;
+    max-width: 520px;
 }
 
 .infLeft h1 {
@@ -688,7 +697,7 @@ a {
     letter-spacing: 1px;
     line-height: 36px;
     text-transform: none;
-    color: #ccc;
+    color: white;
     font-family: 'ClassicalGaramondBT';
     font-weight: 500;
 }
@@ -696,10 +705,11 @@ a {
 .infLeft p {
     color: #ccc;
     margin-top: 10px;
-    font-family: 'ClassicalGaramondBT';
-    line-height: 1.3;
-    font-size: 15px;
-    letter-spacing: 0.5px;
+    font-family: 'ScalaSansOT';
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 
@@ -729,7 +739,7 @@ a {
     width: 100%;
     appearance: none;
     border-radius: 2px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     max-height: 45px;
     min-width: 220px;
     max-width: 320px;
@@ -744,16 +754,16 @@ a {
 
 .informedButton {
     display: inline-block;
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 2px;
     width: auto;
     background-color: transparent;
     border: 1px solid #fff;
     color: #fff;
     line-height: 1.2;
-    min-width: 220px;
+    min-width: 200px;
     max-width: 280px;
-    padding: 14px 20px;
+    padding: 14px 0px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -781,7 +791,7 @@ footer {
     max-width: 1260px;
     position: relative;
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding-bottom: 55px;
     padding-top: 40px;
 }
 .informed .container {
@@ -821,8 +831,9 @@ footer {
 }
 
 .footerLinks li a {
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: .7px;
+    font-family: 'ScalaSansOT';
     line-height: 15px;
     color: #a4a4a4;
     border-bottom: 1px solid transparent;
@@ -851,6 +862,7 @@ footer {
 .timeList li {
     display: flex;
     justify-content: space-between;
+    padding-right: 15px;
 }
 
 .timeList p {
@@ -871,7 +883,7 @@ footer {
 }
 
 .footerInfo {
-    width: 250px;
+    width: 260px;
 }
 .footerMedia {
     margin-top: 20px;
@@ -884,12 +896,12 @@ footer {
 }
 
 .footerLinks {
-    max-width: 710px;
-    width: 710px;
+    max-width: 725px;
+    width: 725px;
 }
 
 .googleMapsLink {
-    font-weight: 700;
+    font-weight: 500;
     color: white !important;
 }
 
