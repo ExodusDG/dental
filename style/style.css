@@ -957,3 +957,13 @@ footer {
 .productSlider .container {
     max-width: 1140px;
 }
+
+
+@media (max-width: 1460px) {
+    .informed .container {
+        max-width: 1120px;
+    }
+    .footerBody {
+        max-width: 1120px;
+    }
+}
