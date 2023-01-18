@@ -630,7 +630,9 @@ a {
     font-size: 32px;
     line-height: 40px;
 }
-
+.itemsBlockItem .joinTextTitle {
+    margin-bottom: 15px;
+}
 .joinTextSmall {
     color: #9a7b69;
     font-size: 12px;
