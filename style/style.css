@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'ClassicalGaramondBT';
+
 }
 
 ul,
@@ -57,6 +58,8 @@ a {
     color: var(--darkWhite);
     font-size: 16px;
     transition: color .3s cubic-bezier(.32, .24, .15, 1);
+    font-weight: 400;
+    -webkit-text-stroke-width: 0 !important
 }
 
 #header-logo {
@@ -115,7 +118,7 @@ a {
     border: none;
     background: white;
     position: relative;
-    top: 16px;
+    top: 20px;
     opacity: 1;
     transition: all .3s cubic-bezier(.32, .24, .15, 1);
 }
