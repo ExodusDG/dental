@@ -421,9 +421,11 @@ a {
     opacity: 0;
     transition: 0.3s;
 }
+
 .tabItem p {
     font-family: 'ScalaSansOT' !important;
 }
+
 .tabVisible {
     display: block;
     opacity: 1;
@@ -630,9 +632,11 @@ a {
     font-size: 32px;
     line-height: 40px;
 }
+
 .itemsBlockItem .joinTextTitle {
     margin-bottom: 15px;
 }
+
 .joinTextSmall {
     color: #9a7b69;
     font-size: 12px;
@@ -799,9 +803,11 @@ footer {
     padding-bottom: 55px;
     padding-top: 40px;
 }
+
 .informed .container {
     max-width: 1260px;
 }
+
 .footerBody::before {
     content: '';
     width: 100%;
@@ -890,9 +896,11 @@ footer {
 .footerInfo {
     width: 260px;
 }
+
 .footerMedia {
     margin-top: 20px;
 }
+
 .footerMedia i {
     font-size: 15px;
     line-height: 15px;
@@ -934,7 +942,7 @@ footer {
     display: flex;
 }
 
-.footerBottom > p {
+.footerBottom>p {
     margin-right: 40px;
 }
 
@@ -968,7 +976,387 @@ footer {
     .informed .container {
         max-width: 1120px;
     }
+
     .footerBody {
         max-width: 1120px;
     }
+}
+
+
+.serviceWrapper {
+    text-align: center;
+    background-color: #f6f4f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.serviceWrapper h1 {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #9a7b69;
+    font-family: 'ClassicalGaramondBT';
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.teamsSlider2 {
+    margin-top: 20px;
+}
+
+/* CONTACT */
+.contactBody>div {
+    width: 48%;
+    max-height: 630px;
+}
+
+.contactBody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactLeft {
+    background: white;
+    padding: 40px;
+    margin: 0;
+    max-height: none;
+}
+
+.contactRight {
+    background: white;
+    padding: 40px;
+}
+
+.contact {
+    background: #efedea;
+    padding-bottom: 75px;
+    padding-top: 75px;
+
+}
+
+
+.conctactBlockSubtitle {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    color: #865;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    display: block;
+    font-family: 'ScalaSansOT';
+}
+
+.contactBlockTitle {
+    color: #1a1919;
+    font-family: 'ClassicalGaramondBT';
+    margin-bottom: 24px;
+    text-align: left;
+    font-size: 32px;
+    letter-spacing: 1.4px;
+    line-height: 40px;
+    margin-top: 0px;
+    overflow: hidden;
+    max-width: 670px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.inputs input {
+    appearance: none;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    color: #453f3f;
+    font-family: 'ScalaSansOT';
+    font-size: 14px;
+    letter-spacing: .5px;
+    margin-top: 8px;
+    order: 2;
+    padding: 12px 21px;
+    width: 100%;
+}
+
+.inputs input::placeholder {
+    color: #d8d8d8;
+}
+
+.contactRow {
+    margin-top: 10px;
+}
+
+.contactRow p {
+    font-family: 'ScalaSansOT';
+    font-size: 14px;
+}
+
+#contactSelect {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    color: #1a1919;
+    font-family: 'ScalaSansOT';
+    font-size: 14px;
+    letter-spacing: .5px;
+    margin-top: 8px;
+    order: 2;
+    padding: 12px 21px;
+    width: 100%;
+    outline: none;
+}
+
+.messageCheckboxText {
+    display: block;
+    font-size: 14px;
+    letter-spacing: .4px;
+    line-height: 24px;
+    padding: 4px 0 0 26px;
+    position: relative;
+    color: #1a1919;
+    font-family: 'ScalaSansOT';
+}
+
+
+.contactSelect {
+    display: flex;
+    align-items: center;
+}
+
+.bookNow {
+    width: 100%;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.benefits-list span {
+    font-family: 'ScalaSansOT';
+    font-size: 14px;
+    letter-spacing: .5px;
+    line-height: 25px;
+    color: #626262;
+    width: calc(100% - 40px);
+    display: inline-block;
+}
+
+.benefits-list li {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.benefits-list i {
+    margin-right: 20px;
+}
+
+.contactRight {
+    position: relative;
+}
+
+.contactRight::after {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(https://www.rituals.com/on/demandware.static/Sites-UK-Site/-/en_GB/v1672733620420/images/crm/ribbon-gold-corner-desktop.svg);
+    height: 96px;
+    width: 90px;
+    opacity: 1;
+}
+
+.preFooter {
+    width: 100%;
+    height: 40px;
+    background: rgba(26,25,25,.96);
+}
+
+.pricingSubtitle {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: 'ScalaSansOT';
+    max-width: 880px;
+    margin: 0 auto;
+    color: #453f3f;
+}
+
+.pricingSub {
+    font-weight: 700;
+}
+
+.pricing {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: white;
+}
+
+.pricing h2 {
+    font-family: 'ClassicalGaramondBT';
+    color: #1a1919;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.pricingTop {
+    text-align: center;
+}
+
+.pricingTop > * {
+margin-bottom: 10px;
+}
+
+.pricingSub {
+    font-family: 'ScalaSansOT';
+    font-weight: 700;
+    color: #453f3f;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.pricingTableTop {
+    display: flex;
+}
+.pricingTableRow {
+    display: flex;
+}
+
+.pricingTable {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.pricingTableTop>div:nth-child(1) {
+    width: 50%;
+    text-align: left;
+}
+
+
+
+.pricingTableTop>div {
+    font-size: 16px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'ScalaSansOT';
+    letter-spacing: 2.08px;
+    line-height: 14px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.pricingTableTop>div:nth-child(1) {
+    width: 50%;
+    text-align: left;
+}
+
+.pricingTableTop>div:nth-child(2) {
+    width: 25%;
+    text-align: left;
+}
+
+.pricingTableTop>div:nth-child(3) {
+    width: 25%;
+    text-align: left;
+}
+
+.pricingTableRow>p:nth-child(1) {
+    width: 50%;
+    text-align: left;
+}
+
+.pricingTableRow>p:nth-child(2) {
+    width: 25%;
+    text-align: left;
+}
+
+.pricingTableRow>p:nth-child(3) {
+    width: 25%;
+    text-align: left;
+}
+
+.pricingTableRow {
+    display: flex;
+}
+
+.pricingTableRow p {
+    padding-top: 5px;
+    font-family: 'ScalaSansOT';
+    font-size: 14px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ececec;
+    color: #453f3f;
+    letter-spacing: 1px;
+}
+.pricingTableRow p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pricingTableTop>div {
+    font-size: 14px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'ScalaSansOT';
+    letter-spacing: 2.08px;
+    line-height: 14px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.pricingSecondPrice {
+    margin-top: 50px;
+}
+
+.pricing2Title {
+    text-align: center;
+}
+
+.pricingSubtitle {
+    width: 70%;
+}
+
+.pricing2Title {
+    margin-bottom: 40px;
+}
+
+
+.rightBlock::after {
+    display: none;
+}
+
+.howToFindBlock {
+    display: flex;
+    align-items: center;
+}
+
+.howToFindBlock i {
+    color: #9a7b69;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.howToFindBlock p {
+    display: block;
+    font-size: 14px;
+    letter-spacing: .4px;
+    line-height: 24px;
+}
+
+.contactPage .bookNow {
+    margin-top: 40px;
+}
+
+.contactPage .contactRight:last-child {
+    margin-top: 30px;
+}
+
+
+.benefits-list li {
+    margin-top: 10px;
 }
