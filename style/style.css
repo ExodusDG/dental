@@ -1171,7 +1171,7 @@ footer {
 .preFooter {
     width: 100%;
     height: 40px;
-    background: rgba(26,25,25,.96);
+    background: rgba(26, 25, 25, .96);
 }
 
 .pricingSubtitle {
@@ -1206,8 +1206,8 @@ footer {
     text-align: center;
 }
 
-.pricingTop > * {
-margin-bottom: 10px;
+.pricingTop>* {
+    margin-bottom: 10px;
 }
 
 .pricingSub {
@@ -1221,6 +1221,7 @@ margin-bottom: 10px;
 .pricingTableTop {
     display: flex;
 }
+
 .pricingTableRow {
     display: flex;
 }
@@ -1292,6 +1293,7 @@ margin-bottom: 10px;
     color: #453f3f;
     letter-spacing: 1px;
 }
+
 .pricingTableRow p {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1359,4 +1361,317 @@ margin-bottom: 10px;
 
 .benefits-list li {
     margin-top: 10px;
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs>* {
+    color: #453f3f;
+    font-family: 'ScalaSansOT';
+    font-size: 11px;
+    letter-spacing: 2.08px;
+    line-height: 14px;
+    padding: 14px 0 7px;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+
+}
+
+.breadcrumbs>*::after {
+    content: '-';
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: normal;
+}
+
+.productSwiper {
+    padding-top: 50px;
+    width: 440px;
+    height: 440px;
+    margin-top: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+}
+
+
+.productSwiper img {
+    width: 90%;
+}
+
+
+.services {
+    padding-top: 10px;
+}
+
+.productWrapper {
+    display: flex;
+}
+
+.productWrapper>div {
+    width: 50%;
+}
+
+.productRightCollection {
+    font-family: 'ClassicalGaramondBT';
+    font-size: 14px;
+    color: #000;
+    display: block;
+    line-height: 23px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.productRightInfo {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.productRightName {
+    margin: 0 auto;
+    font-size: 34px;
+    letter-spacing: 1.6px;
+    line-height: 50px;
+    font-family: 'ClassicalGaramondBT';
+    color: #000;
+    text-transform: none;
+    margin-bottom: 18px;
+    max-width: 480px;
+
+}
+
+.productRightSubtitle {
+    margin-bottom: 27px;
+    font-size: 14px;
+    font-family: 'ScalaSansOT';
+    line-height: 17px;
+    letter-spacing: .36px;
+    color: #767676;
+}
+
+.productRightDesc {
+    line-height: 28px;
+    max-width: 380px;
+    width: 100%;
+    font-family: 'ScalaSansOT';
+    color: #453f3f;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.productRightPrice {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.productRightInfo .mainButton {
+    margin: 0 auto;
+}
+
+.productRightCheck {
+
+    color: #865;
+    font-family: 'ScalaSansOT';
+    font-size: 11px;
+    letter-spacing: 2.08px;
+    line-height: 14px;
+    padding: 14px 0 7px;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 1px solid #865;
+    padding-bottom: 0;
+    margin-top: 10px;
+}
+
+.productRightPriceBlock {
+    display: inline-grid;
+}
+
+.productBottomList li span {
+    text-align: left;
+}
+
+.productBottomList {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.services {
+    margin-bottom: 0px;
+}
+
+.productRightInfo {
+    height: auto;
+}
+
+.services {
+    background: #efedea;
+}
+
+.containsItem {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.containsItem:last-child {
+    border-bottom: 1px solid transparent;
+}
+
+.containsTitle {
+    color: #1a1919;
+    font-family: 'ClassicalGaramondBT';
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.containsItem p {
+    font-family: 'ScalaSansOT';
+    line-height: 24px;
+    margin-bottom: 0;
+    font-style: normal;
+    color: #453f3f;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.containsItem p:first-child {
+    color: #9a7b69;
+    font-family: 'ClassicalGaramondBT';
+    font-size: 11px;
+    letter-spacing: 1.6px;
+}
+
+.contains {
+    padding-top: 160px;
+    padding-bottom: 190px;
+}
+
+.serviceBottom {
+    display: flex;
+
+}
+
+.serviceBottom>* {
+    width: 50%;
+    min-height: 760px;
+}
+
+.serviceBottomLeft {
+    background: white;
+}
+
+
+.productLeftBlock {
+    height: 718px;
+}
+
+.productLeftWhite {
+    background: white;
+    min-height: 720px;
+    width: 100%;
+}
+
+.productSwiper {
+    padding-bottom: 240px;
+}
+
+.productLeftBlock {
+    padding-top: 240px;
+    padding-bottom: 240px;
+}
+
+.productRightText {
+    background: #886655;
+    min-height: 720px;
+}
+
+
+.servicesDouble {
+    display: flex;
+}
+
+.servicesDouble > * {
+    width: 50%;
+    height: 720px;
+}
+
+.productRightText p:first-child {
+    font-size: 15px;
+    letter-spacing: 5px;
+    line-height: 23px;
+    margin-bottom: 22px;
+    color: #fff;
+}
+
+.productRightText p:last-child {
+    font-size: 18px;
+    letter-spacing: .6px;
+    line-height: 40px;
+    margin-bottom: 26px;
+    color: white;
+}
+
+.productRightBlock {
+    max-width: 580px;
+    padding-top: 25%;
+    padding-left: 100px;
+}
+
+.productRightText {
+    position: relative;
+}
+
+.servicesDouble img {
+    object-fit: cover;
+}
+
+.servicesDoubleText {
+    max-width: 580px;
+    padding-top: 15%;
+    padding-left: 100px;
+}
+
+.servicesDoubleText p:first-child {
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+    margin-bottom: 22px;
+    font-family: 'ClassicalGaramondBT';
+}
+
+.servicesDoubleText p:last-child {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: 'ScalaSansOT';
+}
+
+.serviceSlider {
+    padding-bottom: 125px;
+}
+
+
+.productRightInfo {
+    position: relative;
+    right: 15%;
+}
+
+.productSwiper {
+    left: 400px;
 }

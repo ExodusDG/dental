@@ -43,6 +43,25 @@ const productSlider = new Swiper('.productSlider', {
   },
 });
 
+const productSwiper = new Swiper('.productSwiper', {
+  direction: 'horizontal',
+  loop: false,
+  slidesPerView: 1,
+  spaceBetween: 20,
+  scrollbar: {
+    el: '.swiper-scrollbar',
+    draggable: true,
+  },
+  slidesPerGroup: 1,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
 /* TABS GENERATE */
 
 $.each($('.tabItem'), function (key, value) {
