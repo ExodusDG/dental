@@ -797,15 +797,11 @@ footer {
 }
 
 .footerBody {
-    max-width: 1260px;
+    max-width: 1200px;
     position: relative;
     margin: 0 auto;
     padding-bottom: 55px;
     padding-top: 40px;
-}
-
-.informed .container {
-    max-width: 1260px;
 }
 
 .footerBody::before {
@@ -973,13 +969,7 @@ footer {
 
 
 @media (max-width: 1460px) {
-    .informed .container {
-        max-width: 1120px;
-    }
 
-    .footerBody {
-        max-width: 1120px;
-    }
 }
 
 
