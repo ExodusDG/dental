@@ -1407,31 +1407,31 @@ footer {
     display: flex;
 }
 
-.productWrapper>div {
-    width: 50%;
-}
+
 
 .productRightCollection {
     font-family: 'ClassicalGaramondBT';
-    font-size: 14px;
+    font-size: 13px;
     color: #000;
     display: block;
     line-height: 23px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .productRightInfo {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
+    position: relative;
+    right: 40px;
 }
 
 .productRightName {
     margin: 0 auto;
-    font-size: 34px;
-    letter-spacing: 1.6px;
-    line-height: 50px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    line-height: 45px;
     font-family: 'ClassicalGaramondBT';
     color: #000;
     text-transform: none;
@@ -1442,7 +1442,7 @@ footer {
 
 .productRightSubtitle {
     margin-bottom: 27px;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'ScalaSansOT';
     line-height: 17px;
     letter-spacing: .36px;
@@ -1579,7 +1579,7 @@ footer {
 }
 
 .productSwiper {
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
 
 .productLeftBlock {
@@ -1659,33 +1659,28 @@ footer {
     padding-bottom: 125px;
 }
 
+.servicesHeader {
+    width: 50%;
+}
 
-.productRightInfo {
+.productRightText {
+    width: 50%;
     position: relative;
-    right: 15%;
+    left: 50%;
 }
 
-
-@media (max-width: 1600px) {
-    .productSwiper img {
-        width: 73%;
-    }
+.productLeft {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
-@media (max-width: 1500px) {
-    .productSwiper img {
-        width: 78%;
-    }
+.contains {
+    width: 600px;
 }
 
-@media (max-width: 1440px) {
-    .productSwiper img {
-        width: 84%;
-    }
-}
-
-@media (max-width: 1366px) {
-    .productSwiper img {
-        width: 87%;
-    }
+.productRight {
+    display: flex;
+    justify-content: flex-end;
 }
