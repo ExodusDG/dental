@@ -1690,3 +1690,57 @@ footer {
     width: 600px;
 
 }
+
+.generalBlock {
+    height: 784px;
+}
+
+.generalBlock img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.generalBlock {
+    display: flex;
+    align-items: center;
+}
+
+.generalBlockText {
+    margin-left: 13%;
+    max-width: 480px;
+}
+
+.generalBlockTitle {
+    font-size: 2rem;
+    color: #242222;
+}
+
+.generalBlockDesc {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    letter-spacing: 0.7px;
+    line-height: 1.5;
+}
+
+.generalBlockReverse {
+    flex-direction: row-reverse;
+}
+
+.generalBlockReverse .generalBlockText {
+    margin-left: 0;
+    margin-right: 13%;
+}
+
+@media (max-width: 1450px) {
+    .generalBlock {
+        height: 534px;
+    }
+    .generalBlockText {
+        margin-left: 8%;
+    }
+    .generalBlockReverse .generalBlockText {
+        margin-right: 8%;
+    }
+}

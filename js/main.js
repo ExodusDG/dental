@@ -1,3 +1,17 @@
+/* GENERAL PAGE */
+
+let i = 1;
+
+$.each($('.generalBlocks > div'), function (key, value) {
+  i++;
+  console.log('1')
+  if (i & 1) {
+    $(this).addClass('generalBlockReverse')
+  }
+})
+
+
+
 const swiperText = new Swiper('.swiperText', {
   direction: 'horizontal',
   loop: true,
@@ -42,6 +56,12 @@ const productSlider = new Swiper('.productSlider', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+
+
+
+
+
 /* TABS GENERATE */
 
 $.each($('.tabItem'), function (key, value) {
