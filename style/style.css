@@ -1771,16 +1771,13 @@ footer {
     text-transform: uppercase;
 }
 
-.privacyContent {
-    max-width: 1400px;
-    width: 100%;
-    margin: 0 auto;
+.privacyBlock .container {
     padding-top: 10px;
     padding-bottom: 40px;
 
 }
 
-.privacyContent h2 {
+.privacyBlock h2 {
     text-transform: uppercase;
     margin-bottom: 10px;
     font-size: 29px;
@@ -1791,11 +1788,11 @@ footer {
     margin-top: 40px;
 }
 
-.privacyContent h2:first-child {
+.privacyBlock h2:first-child {
     margin-bottom: 40px;
 }
 
-.privacyContent p {
+.privacyBlock p {
     font-family: 'ScalaSansOT';
     font-style: normal;
     color: #453f3f;
@@ -1805,12 +1802,12 @@ footer {
     margin-bottom: 10px;
 }
 
-.privacyContent ul {
+.privacyBlock ul {
     margin-top: 40px;
     margin-bottom: 30px;
 }
 
-.privacyContent li {
+.privacyBlock li {
     font-family: 'ScalaSansOT';
     font-style: normal;
     color: #453f3f;
@@ -1824,22 +1821,22 @@ footer {
     margin-top: 25px;
 }
 
-.privacyContent li b {
+.privacyBlock li b {
     font-family: 'ScalaSansOT';
 }
 
-.privacyContent u {
+.privacyBlock u {
     font-family: 'ScalaSansOT';
 }
 
-.privacyContent a {
+.privacyBlock a {
     font-family: 'ScalaSansOT';
     color: #865;
     text-decoration: underline;
 }
 
 @media (max-width: 1450px) {
-    .privacyContent {
+    .privacyBlock {
         max-width: 95%;
     }
 }
