@@ -1775,7 +1775,7 @@ footer {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 40px;
 
 }
@@ -1791,6 +1791,10 @@ footer {
     margin-top: 40px;
 }
 
+.privacyContent h2:first-child {
+    margin-bottom: 40px;
+}
+
 .privacyContent p {
     font-family: 'ScalaSansOT';
     font-style: normal;
@@ -1802,7 +1806,7 @@ footer {
 }
 
 .privacyContent ul {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -1813,10 +1817,11 @@ footer {
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     list-style-type: disc;
     position: relative;
     left: 15px;
+    margin-top: 25px;
 }
 
 .privacyContent li b {
