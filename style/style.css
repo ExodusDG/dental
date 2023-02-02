@@ -1843,3 +1843,10 @@ footer {
         max-width: 95%;
     }
 }
+
+.privacy {
+    background: url(../images/privacy.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
