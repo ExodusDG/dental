@@ -1835,12 +1835,6 @@ footer {
     text-decoration: underline;
 }
 
-@media (max-width: 1450px) {
-    .privacyBlock {
-        max-width: 95%;
-    }
-}
-
 .privacy {
     background: url(../images/privacy.jpg);
     background-position: center center;
