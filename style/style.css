@@ -1752,3 +1752,89 @@ footer {
         margin-right: 8%;
     }
 }
+
+.privacyBlock {
+    background: #efedea;
+}
+
+.privacy {
+    height: auto;
+    padding-top: 205px;
+    padding-bottom: 205px;
+}
+
+.privacy h1 {
+    text-align: center;
+    letter-spacing: 9px;
+    font-size: 54px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.privacyContent {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.privacyContent h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 29px;
+    line-height: 40px;
+    letter-spacing: 2.4px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.privacyContent p {
+    font-family: 'ScalaSansOT';
+    font-style: normal;
+    color: #453f3f;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.privacyContent ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.privacyContent li {
+    font-family: 'ScalaSansOT';
+    font-style: normal;
+    color: #453f3f;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    list-style-type: disc;
+    position: relative;
+    left: 15px;
+}
+
+.privacyContent li b {
+    font-family: 'ScalaSansOT';
+}
+
+.privacyContent u {
+    font-family: 'ScalaSansOT';
+}
+
+.privacyContent a {
+    font-family: 'ScalaSansOT';
+    color: #865;
+    text-decoration: underline;
+}
+
+@media (max-width: 1450px) {
+    .privacyContent {
+        max-width: 95%;
+    }
+}
