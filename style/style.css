@@ -1752,3 +1752,98 @@ footer {
         margin-right: 8%;
     }
 }
+
+.privacyBlock {
+    background: #efedea;
+}
+
+.privacy {
+    height: auto;
+    padding-top: 205px;
+    padding-bottom: 205px;
+}
+
+.privacy h1 {
+    text-align: center;
+    letter-spacing: 9px;
+    font-size: 54px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.privacyBlock .container {
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+
+.privacyBlock h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 29px;
+    line-height: 40px;
+    letter-spacing: 2.4px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.privacyBlock h2:first-child {
+    margin-bottom: 40px;
+}
+
+.privacyBlock p {
+    font-family: 'ScalaSansOT';
+    font-style: normal;
+    color: #453f3f;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.privacyBlock ul {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.privacyBlock li {
+    font-family: 'ScalaSansOT';
+    font-style: normal;
+    color: #453f3f;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    list-style-type: disc;
+    position: relative;
+    left: 15px;
+    margin-top: 25px;
+}
+
+.privacyBlock li b {
+    font-family: 'ScalaSansOT';
+}
+
+.privacyBlock u {
+    font-family: 'ScalaSansOT';
+}
+
+.privacyBlock a {
+    font-family: 'ScalaSansOT';
+    color: #865;
+    text-decoration: underline;
+}
+
+@media (max-width: 1450px) {
+    .privacyBlock {
+        max-width: 95%;
+    }
+}
+
+.privacy {
+    background: url(../images/privacy.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
