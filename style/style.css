@@ -1863,11 +1863,12 @@ footer {
 }
 
 .blogList {
-    padding: 20px;
+    padding: 30px;
     background: white;
     display: grid;
-    gap: 30px;
+    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 75px;
 }
 
 .blogTags {
@@ -1976,7 +1977,7 @@ footer {
 }
 
 .blogHeader {
-    height: 690px;
+    height: 580px;
     width: 100%;
 }
 
@@ -2184,4 +2185,10 @@ footer {
 
 .blogSmallItem {
     margin-top: 40px;
+}
+
+@media (max-width: 1450px) {
+.blogHeader {
+    height: 425px;
+}
 }
