@@ -2020,8 +2020,8 @@ footer {
 }
 
 .blogBody {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 
 }
 
@@ -2188,7 +2188,7 @@ footer {
 }
 
 @media (max-width: 1450px) {
-.blogHeader {
-    height: 425px;
-}
+    .blogHeader {
+        height: 425px;
+    }
 }
