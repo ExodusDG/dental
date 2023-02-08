@@ -25,6 +25,7 @@ const swiperText = new Swiper('.swiperText', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
+  
 });
 
 const customerSlider = new Swiper('.customerSlider', {
@@ -39,6 +40,23 @@ const customerSlider = new Swiper('.customerSlider', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  breakpoints: {
+    // mobile + tablet - 320-990
+    320: {
+      slidesPerView: 1.2,
+      slidesPerGroup: 1,
+    },
+    // desktop >= 430 - 990
+    430: {
+      slidesPerView: 3.2,
+      slidesPerGroup: 3,
+    },
+    // desktop >= 991
+    991: {
+      slidesPerView: 3.2,
+      slidesPerGroup: 3,
+    }
+  }
 });
 
 
@@ -55,6 +73,23 @@ const productSlider = new Swiper('.productSlider', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  breakpoints: {
+    // mobile + tablet - 320-990
+    320: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+    },
+    // desktop >= 430 - 990
+    430: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+    },
+    // desktop >= 991
+    991: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+    }
+  }
 });
 
 
@@ -85,3 +120,21 @@ $(".tabsMenu").delegate("p", "click", function () {
     }
   })
 });
+
+
+/* MENU */
+
+var menuOpen = false;
+
+$('.hamburger').click(function () {
+  $('.mobileMenu').toggleClass('mobileMenuActive')
+  $(this).toggleClass('is-active')
+
+  if (menuOpen === false) {
+    $('body').attr('style', 'overflow-y: hidden')
+  } else {
+    $('body').attr('style', 'overflow-y: scroll')
+  }
+
+  menuOpen = !menuOpen
+})
