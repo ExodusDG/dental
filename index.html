@@ -8,6 +8,7 @@
     <title>Dental Website</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/hamburgers.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -24,7 +25,8 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="/dental/index.html"><img id="header-logo" src="images/logotype.svg" alt="Logotype"></a>
+                            <a href="/dental/index.html"><img id="header-logo" src="images/logotype.svg"
+                                    alt="Logotype"></a>
                         </li>
                         <li class="menuItem"><a class="menuLink" href="/dental/pricing.html">Pricing
                                 <hr>
@@ -50,6 +52,31 @@
                         <li><a href="#"><button class="blackButton">CALL</button></a></li>
                         <li><a href="/dental/contact.html"><button class="blackButton">CONTACT</button></a></li>
                     </ul>
+
+                    <button class="hamburger hamburger--spring" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+
+                    <div class="mobileMenu">
+                        <div class="container">
+                            <ul>
+                                <li class="menuItem"><a class="menuLink" href="/dental/pricing.html">Pricing</a></li>
+                                <li class="menuItem"><a class="menuLink" href="/dental/team.html">Team</a></li>
+                                <li class="menuItem"><a class="menuLink" href="/dental/service.html">Service</a></li>
+                                <li class="menuItem"><a class="menuLink" href="/dental/reviews.html">Reviews</a></li>
+                                <li class="menuItem"><a class="menuLink" href="/dental/before_after.html">Before & After</a></li>
+                                <li class="menuItem"><a class="menuLink" href="/dental/contact.html">Contact</a></li>
+                            </ul>
+
+
+                            <ul class="menuButtons">
+                                <li><a href="#"><button class="blackButton">CALL</button></a></li>
+                                <li><a href="/dental/contact.html"><button class="blackButton">CONTACT</button></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -309,84 +336,84 @@
         </div>
     </section>
 
-  <!-- CONTACT BLOCK -->
+    <!-- CONTACT BLOCK -->
 
-  <section class="contact contactPage">
-    <div class="container">
-        <div class="contactBody">
-            <div class="contactLeft">
-                <p class="conctactBlockSubtitle">My Rituals Membership</p>
-                <p class="contactBlockTitle">Get in Touch to Book Now</p>
-
-                <div class="contactRow inputs">
-                    <p>Your Name*</p>
-                    <input type="text" placeholder="Name">
-                </div>
-
-                <div class="contactRow inputs">
-                    <p>Email address*</p>
-                    <input type="text" placeholder="Email">
-                </div>
-
-                <div class="contactRow inputs">
-                    <p>Your Number*</p>
-                    <input type="text" placeholder="Number">
-                </div>
-
-                <div class="contactRow">
-                    <p>What are you interested in?</p>
-                    <select name="contactSelect" id="contactSelect">
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                </div>
-
-                <div class="contactRow contactSelect">
-                    <input type="checkbox" name="messageCheckbox" id="messageCheckbox" checked="">
-                    <label for="messageCheckbox" class="messageCheckboxText">I give consent for Watford Smiles to
-                        process my data and I
-                        understand that I have the right to withdraw it at any time.</label>
-                </div>
-
-                <button class="mainButton bookNow bookNowLeft">Book consultation now</button>
-            </div>
-            <div class="contactRightWrapper">
-                <div class="contactRight">
+    <section class="contact contactPage">
+        <div class="container">
+            <div class="contactBody">
+                <div class="contactLeft">
                     <p class="conctactBlockSubtitle">My Rituals Membership</p>
-                    <p class="contactBlockTitle">What you’ll enjoy as a My Rituals member</p>
+                    <p class="contactBlockTitle">Get in Touch to Book Now</p>
 
-                    <ul class="benefits-list">
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            <span>Delightful surprises gifts</span>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            <span>Invites to exclusive events</span>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            <span>Personalised offers inspiration</span>
-                        </li>
-                    </ul>
-
-                    <button class="mainButton bookNow">Fast track booking</button>
-                </div>
-
-                <div class="contactRight rightBlock">
-                    <p class="conctactBlockSubtitle">HOW TO FIND US</p>
-                    <div class="howToFindBlock">
-                        <i class="fa-solid fa-circle-check"></i>
-                        <p>107 Hempstead Road, Watford, WD17 3HE</p>
+                    <div class="contactRow inputs">
+                        <p>Your Name*</p>
+                        <input type="text" placeholder="Name">
                     </div>
-                    <button class="mainButton bookNow">Get Directions</button>
-                </div>
-            </div>
 
+                    <div class="contactRow inputs">
+                        <p>Email address*</p>
+                        <input type="text" placeholder="Email">
+                    </div>
+
+                    <div class="contactRow inputs">
+                        <p>Your Number*</p>
+                        <input type="text" placeholder="Number">
+                    </div>
+
+                    <div class="contactRow">
+                        <p>What are you interested in?</p>
+                        <select name="contactSelect" id="contactSelect">
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+
+                    <div class="contactRow contactSelect">
+                        <input type="checkbox" name="messageCheckbox" id="messageCheckbox" checked="">
+                        <label for="messageCheckbox" class="messageCheckboxText">I give consent for Watford Smiles to
+                            process my data and I
+                            understand that I have the right to withdraw it at any time.</label>
+                    </div>
+
+                    <button class="mainButton bookNow bookNowLeft">Book consultation now</button>
+                </div>
+                <div class="contactRightWrapper">
+                    <div class="contactRight">
+                        <p class="conctactBlockSubtitle">My Rituals Membership</p>
+                        <p class="contactBlockTitle">What you’ll enjoy as a My Rituals member</p>
+
+                        <ul class="benefits-list">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Delightful surprises gifts</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Invites to exclusive events</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Personalised offers inspiration</span>
+                            </li>
+                        </ul>
+
+                        <button class="mainButton bookNow">Fast track booking</button>
+                    </div>
+
+                    <div class="contactRight rightBlock">
+                        <p class="conctactBlockSubtitle">HOW TO FIND US</p>
+                        <div class="howToFindBlock">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <p>107 Hempstead Road, Watford, WD17 3HE</p>
+                        </div>
+                        <button class="mainButton bookNow">Get Directions</button>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- INFORMED -->
 
@@ -406,7 +433,7 @@
             </div>
         </div>
     </section>
-    
+
 
     <!-- FOOTER -->
     <footer>

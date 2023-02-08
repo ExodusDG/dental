@@ -8,6 +8,7 @@
     <title>Dental Website - Pricing</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/hamburgers.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -24,7 +25,8 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="/dental/index.html"><img id="header-logo" src="images/logotype.svg" alt="Logotype"></a>
+                            <a href="/dental/index.html"><img id="header-logo" src="images/logotype.svg"
+                                    alt="Logotype"></a>
                         </li>
                         <li class="menuItem"><a class="menuLink" href="/dental/pricing.html">Pricing
                                 <hr>
@@ -50,10 +52,37 @@
                         <li><a href="#"><button class="blackButton">CALL</button></a></li>
                         <li><a href="/dental/contact.html"><button class="blackButton">CONTACT</button></a></li>
                     </ul>
+
+                    <button class="hamburger hamburger--spring" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+
+                    <div class="mobileMenu">
+                        <div class="container">
+                            <ul>
+                                <li class="menuItem"><a class="menuLink" href="/dental/pricing.html">Pricing</a></li>
+                                <li class="menuItem"><a class="menuLink" href="/dental/team.html">Team</a></li>
+                                <li class="menuItem"><a class="menuLink" href="/dental/service.html">Service</a></li>
+                                <li class="menuItem"><a class="menuLink" href="/dental/reviews.html">Reviews</a></li>
+                                <li class="menuItem"><a class="menuLink" href="/dental/before_after.html">Before &
+                                        After</a></li>
+                                <li class="menuItem"><a class="menuLink" href="/dental/contact.html">Contact</a></li>
+                            </ul>
+
+
+                            <ul class="menuButtons">
+                                <li><a href="#"><button class="blackButton">CALL</button></a></li>
+                                <li><a href="/dental/contact.html"><button class="blackButton">CONTACT</button></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </div>
     </div>
+
     <!-- BODY -->
 
     <!-- SERVICE -->
@@ -75,116 +104,54 @@
                 <p class="pricingSub">Members have availability to special offers and 10% off treatment</p>
             </div>
 
-            <div class="pricingTable">.
-                <div class="pricingTableTop">
-                    <div>TREATMENT</div>
-                    <div>PRICE</div>
-                    <div>MEMBER PRICE</div>
-                </div>
-
-                <div class="pricingTableList">
-                    <div class="pricingTableRow">
-                        <p>New Patient Assessment (including digital x-ray)</p>
-                        <p>£69</p>
-                        <p>N/A</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Regular dental examination</p>
-                        <p>£49</p>
-                        <p>Inclusive</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Cosmetic Consultation</p>
-                        <p>Free</p>
-                        <p>Free</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Child Exam (Under 18)</p>
-                        <p>Free Via NHS</p>
-                        <p>N/A</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Hygienist</p>
-                        <p>£60</p>
-                        <p>Inclusive</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Hygienist with Airflow (power stain removal)</p>
-                        <p>£85</p>
-                        <p>Inclusive</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Hygienist (Direct Access)</p>
-                        <p>£95</p>
-                        <p>N/A</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Digital x-ray</p>
-                        <p>£16.50 Each</p>
-                        <p>£14.85 each</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>White (Composite) Fillings</p>
-                        <p>From: £120</p>
-                        <p>From: £108</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>White (Composite) Fillings</p>
-                        <p>From: £120</p>
-                        <p>From: £108</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Amalgam (Silver) Fillings</p>
-                        <p>From: £95</p>
-                        <p>From: £85.50</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Denture</p>
-                        <p>From: £850</p>
-                        <p>From: £765</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Emergency</p>
-                        <p>£69</p>
-                        <p>Inclusive assessment and advice ONLY</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Root Canal Treatment</p>
-                        <p>From: £440 – £640</p>
-                        <p>From: £396 – £576</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Re- Root Canal Treatment</p>
-                        <p>From: £640 – £950</p>
-                        <p>From: £576 – £855</p>
-                    </div>
-                    <div class="pricingTableRow">
-                        <p>Extraction</p>
-                        <p>From: £140 – £270</p>
-                        <p>From: £126 – £243</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pricingSecondPrice">
-                <h2 class="pricing2Title">Cosmetic Dentistry Price Guide</h2>
-
-                <div class="pricingTable">
+            <div class="pricingWrapper">
+                <div class="pricingTable">.
                     <div class="pricingTableTop">
                         <div>TREATMENT</div>
                         <div>PRICE</div>
                         <div>MEMBER PRICE</div>
                     </div>
+
                     <div class="pricingTableList">
+                        <div class="pricingTableRow">
+                            <p>New Patient Assessment (including digital x-ray)</p>
+                            <p>£69</p>
+                            <p>N/A</p>
+                        </div>
+                        <div class="pricingTableRow">
+                            <p>Regular dental examination</p>
+                            <p>£49</p>
+                            <p>Inclusive</p>
+                        </div>
                         <div class="pricingTableRow">
                             <p>Cosmetic Consultation</p>
                             <p>Free</p>
                             <p>Free</p>
                         </div>
                         <div class="pricingTableRow">
-                            <p>Itero Scan</p>
-                            <p>£195</p>
-                            <p>Free</p>
+                            <p>Child Exam (Under 18)</p>
+                            <p>Free Via NHS</p>
+                            <p>N/A</p>
+                        </div>
+                        <div class="pricingTableRow">
+                            <p>Hygienist</p>
+                            <p>£60</p>
+                            <p>Inclusive</p>
+                        </div>
+                        <div class="pricingTableRow">
+                            <p>Hygienist with Airflow (power stain removal)</p>
+                            <p>£85</p>
+                            <p>Inclusive</p>
+                        </div>
+                        <div class="pricingTableRow">
+                            <p>Hygienist (Direct Access)</p>
+                            <p>£95</p>
+                            <p>N/A</p>
+                        </div>
+                        <div class="pricingTableRow">
+                            <p>Digital x-ray</p>
+                            <p>£16.50 Each</p>
+                            <p>£14.85 each</p>
                         </div>
                         <div class="pricingTableRow">
                             <p>White (Composite) Fillings</p>
@@ -192,53 +159,119 @@
                             <p>From: £108</p>
                         </div>
                         <div class="pricingTableRow">
-                            <p>Tooth Whitening</p>
-                            <p>From: £395</p>
-                            <p>Membership offer</p>
+                            <p>White (Composite) Fillings</p>
+                            <p>From: £120</p>
+                            <p>From: £108</p>
                         </div>
                         <div class="pricingTableRow">
-                            <p>Teeth reshaping</p>
-                            <p>From: £195</p>
-                            <p>Membership offer</p>
+                            <p>Amalgam (Silver) Fillings</p>
+                            <p>From: £95</p>
+                            <p>From: £85.50</p>
                         </div>
                         <div class="pricingTableRow">
-                            <p>Composite Bonding</p>
-                            <p>From: £150</p>
-                            <p>Membership offer</p>
+                            <p>Denture</p>
+                            <p>From: £850</p>
+                            <p>From: £765</p>
                         </div>
                         <div class="pricingTableRow">
-                            <p>Veneer</p>
-                            <p>From: £640</p>
-                            <p>From: £576</p>
+                            <p>Emergency</p>
+                            <p>£69</p>
+                            <p>Inclusive assessment and advice ONLY</p>
                         </div>
                         <div class="pricingTableRow">
-                            <p>Cerec crown</p>
-                            <p>From £640</p>
-                            <p>From: £576</p>
+                            <p>Root Canal Treatment</p>
+                            <p>From: £440 – £640</p>
+                            <p>From: £396 – £576</p>
                         </div>
                         <div class="pricingTableRow">
-                            <p>Lab-made crown</p>
-                            <p>From: £750</p>
-                            <p>From: £675</p>
+                            <p>Re- Root Canal Treatment</p>
+                            <p>From: £640 – £950</p>
+                            <p>From: £576 – £855</p>
                         </div>
                         <div class="pricingTableRow">
-                            <p>Bridge</p>
-                            <p>From: £640 Per Unit</p>
-                            <p>From: £576 Per Unit</p>
-                        </div>
-                        <div class="pricingTableRow">
-                            <p>Implant with crown</p>
-                            <p>From: £2985</p>
-                            <p>Membership offer</p>
+                            <p>Extraction</p>
+                            <p>From: £140 – £270</p>
+                            <p>From: £126 – £243</p>
                         </div>
                     </div>
                 </div>
             </div>
 
+
+            <div class="pricingSecondPrice">
+                <h2 class="pricing2Title">Cosmetic Dentistry Price Guide</h2>
+
+                <div class="pricingWrapper">
+                    <div class="pricingTable">
+                        <div class="pricingTableTop">
+                            <div>TREATMENT</div>
+                            <div>PRICE</div>
+                            <div>MEMBER PRICE</div>
+                        </div>
+                        <div class="pricingTableList">
+                            <div class="pricingTableRow">
+                                <p>Cosmetic Consultation</p>
+                                <p>Free</p>
+                                <p>Free</p>
+                            </div>
+                            <div class="pricingTableRow">
+                                <p>Itero Scan</p>
+                                <p>£195</p>
+                                <p>Free</p>
+                            </div>
+                            <div class="pricingTableRow">
+                                <p>White (Composite) Fillings</p>
+                                <p>From: £120</p>
+                                <p>From: £108</p>
+                            </div>
+                            <div class="pricingTableRow">
+                                <p>Tooth Whitening</p>
+                                <p>From: £395</p>
+                                <p>Membership offer</p>
+                            </div>
+                            <div class="pricingTableRow">
+                                <p>Teeth reshaping</p>
+                                <p>From: £195</p>
+                                <p>Membership offer</p>
+                            </div>
+                            <div class="pricingTableRow">
+                                <p>Composite Bonding</p>
+                                <p>From: £150</p>
+                                <p>Membership offer</p>
+                            </div>
+                            <div class="pricingTableRow">
+                                <p>Veneer</p>
+                                <p>From: £640</p>
+                                <p>From: £576</p>
+                            </div>
+                            <div class="pricingTableRow">
+                                <p>Cerec crown</p>
+                                <p>From £640</p>
+                                <p>From: £576</p>
+                            </div>
+                            <div class="pricingTableRow">
+                                <p>Lab-made crown</p>
+                                <p>From: £750</p>
+                                <p>From: £675</p>
+                            </div>
+                            <div class="pricingTableRow">
+                                <p>Bridge</p>
+                                <p>From: £640 Per Unit</p>
+                                <p>From: £576 Per Unit</p>
+                            </div>
+                            <div class="pricingTableRow">
+                                <p>Implant with crown</p>
+                                <p>From: £2985</p>
+                                <p>Membership offer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-         <!-- CONTACT BLOCK -->
+    <!-- CONTACT BLOCK -->
 
     <section class="contact contactPage">
         <div class="container">
