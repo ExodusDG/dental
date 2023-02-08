@@ -131,9 +131,10 @@ $('.hamburger').click(function () {
   $(this).toggleClass('is-active')
 
   if (menuOpen === false) {
-    $('body').attr('style', 'overflow-y: hidden')
+    $('body, html').attr('style', 'overflow: hidden')
+    
   } else {
-    $('body').attr('style', 'overflow-y: scroll')
+    $('body, html').attr('style', 'overflow: scroll')
   }
 
   menuOpen = !menuOpen
