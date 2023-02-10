@@ -80,7 +80,7 @@ const productSlider = new Swiper('.productSlider', {
       slidesPerGroup: 1,
     },
     // desktop >= 430 - 990
-    430: {
+    491: {
       slidesPerView: 2,
       slidesPerGroup: 2,
     },
