@@ -3033,7 +3033,8 @@ body {
     .footerMedia {
         text-align: center;
     }
-    .footerBottom > p {
+
+    .footerBottom>p {
         margin-right: 0px;
     }
 
@@ -3055,4 +3056,239 @@ body {
 
 .membership {
     background: url('../images/membership.jpg');
+    min-height: 596px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.membershipContent {
+    padding-top: 30px;
+    background: #efedea;
+    text-align: center;
+}
+
+.membershipContent h1 {
+    color: #9a7b69;
+    font-size: 16px;
+    letter-spacing: 5px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-family: 'ScalaSansOT';
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.membershipContent p {
+    margin-top: 16px;
+    margin: 0 auto;
+    font-family: 'ScalaSansOT';
+    font-style: normal;
+    color: #453f3f;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    max-width: 700px;
+}
+
+.membershipButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.membershipButtons button {
+    background-color: #1a1919;
+    border: 1px solid #1a1919;
+    color: #fff;
+    display: inline-block;
+    font-family: 'ScalaSansOT';
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    min-width: 220px;
+    max-width: 280px;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.membershipSmallText {
+    padding-bottom: 30px;
+    color: #1a1919;
+    font-size: 9px !important;
+    font-weight: 700;
+    letter-spacing: .2px;
+    line-height: 13px;
+    font-family: 'ScalaSansOT';
+}
+
+.memb_Item img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+
+.membItemText {
+    text-align: center;
+    padding: 25px 20px 25px;
+    background: white;
+}
+
+.membItemTitle {
+    line-height: 44px;
+    font-size: 24px;
+    letter-spacing: .46px;
+    text-transform: none;
+    font-family: 'ClassicalGaramondBT';
+    margin-bottom: 10px;
+}
+
+.membItemDesc {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-style: normal;
+    color: #453f3f;
+    font-size: 16px;
+    font-family: 'ScalaSansOT';
+}
+
+.memItemButton button {
+    margin-top: 3px;
+    min-width: 220px;
+    border: 1px solid #b4b4b4;
+    color: #1a1919;
+}
+
+.memb_blockList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.memb_Item {
+    width: 31%;
+}
+
+
+
+.memb_blocks {
+    background: #f6f4f2;
+    position: relative;
+    bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.memItemButton button {
+    display: inline-block;
+    font-family: 'ScalaSansOT';
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    min-width: 220px;
+    max-width: 280px;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    margin-top: 3px;
+    min-width: 220px;
+    border: 1px solid #b4b4b4;
+    color: #1a1919;
+    cursor: pointer;
+    background: white;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+
+.memItemButton button:hover {
+    border: 1px solid #242222;
+}
+
+
+@media (max-width: 1366px) {
+    .membership {
+        background: url('../images/membership.jpg');
+        min-height: 596px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 1024px) {
+    .membership {
+        min-height: 495px;
+        background-position: center;
+    }
+
+    .menuList>nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 768px) {
+    .memb_blockList {
+        flex-wrap: wrap;
+    }
+
+    .memb_Item {
+        width: 48%;
+        margin-bottom: 40px;
+    }
+
+    .memb_Item img {
+        height: 310px;
+    }
+
+    .footerInfo {
+        margin: left;
+    }
+
+    .footerInfo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .memb_Item {
+        width: 100%;
+    }
+
+    .membershipButtons {
+        width: 100%;
+        display: block;
+    }
+
+    .membershipButtons a button {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 490px) {
+    .membership {
+        min-height: 540px;
+        background-position: center;
+    }
+    .membershipContent h1 {
+        font-size: 12px;
+    }
+    .membershipSmallText{
+        line-height: 18px;
+    }
+    .membershipContent p {
+        margin-bottom: 20px;
+    }
 }
