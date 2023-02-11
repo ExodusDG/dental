@@ -10,6 +10,10 @@ $.each($('.generalBlocks > div'), function (key, value) {
   }
 })
 
+$('.mobileFooterItem').click(function(){
+  $(this).toggleClass('mobileFooterActive')
+  $(this).find('.mobileFooterItemLinks').toggleClass('mobileFooterItemLinksActive')
+})
 
 
 const swiperText = new Swiper('.swiperText', {
@@ -91,10 +95,6 @@ const productSlider = new Swiper('.productSlider', {
     }
   }
 });
-
-
-
-
 
 
 /* TABS GENERATE */

@@ -1149,7 +1149,7 @@ footer {
     position: absolute;
     right: 0;
     top: 0;
-    background-image: url(https://www.rituals.com/on/demandware.static/Sites-UK-Site/-/en_GB/v1672733620420/images/crm/ribbon-gold-corner-desktop.svg);
+    background-image: url('../images/corner.svg');
     height: 96px;
     width: 90px;
     opacity: 1;
@@ -1223,7 +1223,9 @@ footer {
     text-align: left;
 }
 
-
+.mobileFooterLinks {
+    display: none;
+}
 
 .pricingTableTop>div {
     font-size: 16px;
@@ -3275,6 +3277,139 @@ body {
         margin-bottom: 20px;
     }
 
+    .menuList>nav {
+        position: relative;
+        top: 5px;
+    }
+
+    .menuList {
+        padding-bottom: 2px;
+    }
+
+    .hamburger {
+        position: relative;
+        left: 7px;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100% !important;
+        height: 370px;
+        background: linear-gradient(180.08deg, rgba(26, 24, 25, 0) 13.97%, rgba(26, 24, 25, .43) 28.74%, rgba(26, 24, 25, .71) 43.52%, rgba(26, 24, 25, .92) 60.53%, #1a1819 79.78%);
+        z-index: 2;
+    }
+
+    .header .container {
+        position: relative;
+        z-index: 999;
+    }
+
+    .joinText {
+        text-align: center;
+    }
+
+    .messageCheckbox {
+        width: 15px;
+        height: 15px;
+    }
+
+    .informed .container {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .footerLinks {
+        display: none;
+    }
+
+    .mobileFooterItem {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .mobileFooterItem p {
+        font-family: 'ScalaSansOT';
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 15px;
+        padding: 23px 0 17px;
+        position: relative;
+        text-align: left;
+        text-transform: uppercase;
+        width: 100%;
+        color: white;
+    }
+
+    .mobileFooterItem a {
+        font-size: 14px;
+        font-family: 'ScalaSansOT';
+    }
+
+    .mobileFooterItem {
+        position: relative;
+    }
+
+    .mobileFooterItem hr {
+        width: 100%;
+        height: 1px;
+        background: #d8d8d8;
+        border: none;
+    }
+
+    .mobileFooterItemLinks {
+        margin-top: 20px;
+    }
+
+    .mobileFooterItemLinks li {
+        margin-bottom: 15px;
+    }
+
+    .mobileFooterItem::after {
+        position: absolute;
+        right: 0;
+        top: 20px;
+        content: '';
+        background: url('../images/down.svg');
+        width: 15px;
+        height: 15px;
+        background-size: 15px;
+    }
+
+    .mobileFooterActive::after {
+        rotate: -180deg;
+    }
+
+
+    .mobileFooterItemLinks {
+        display: none;
+    }
+
+    .mobileFooterItemLinksActive {
+        display: block !important; 
+    }
+
+    .footerInfo {
+        margin-top: 30px;
+    }
+
+    .footerBody {
+        padding-top: 1px;
+    } 
+    .footerBody::before {
+      display: none;
+    }
+    .mobileFooterLinks {
+        display: block;
+    }
 }
 
 @media (max-width: 490px) {
@@ -3282,12 +3417,15 @@ body {
         min-height: 540px;
         background-position: center;
     }
+
     .membershipContent h1 {
         font-size: 12px;
     }
-    .membershipSmallText{
+
+    .membershipSmallText {
         line-height: 18px;
     }
+
     .membershipContent p {
         margin-bottom: 20px;
     }
