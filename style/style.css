@@ -3315,7 +3315,7 @@ body {
         text-align: center;
     }
 
-    .messageCheckbox {
+    #messageCheckbox {
         width: 15px;
         height: 15px;
         width: auto;
