@@ -3318,6 +3318,8 @@ body {
     .messageCheckbox {
         width: 15px;
         height: 15px;
+        width: auto;
+        flex: 0 0 16px;
     }
 
     .informed .container {
@@ -3394,7 +3396,7 @@ body {
     }
 
     .mobileFooterItemLinksActive {
-        display: block !important; 
+        display: block !important;
     }
 
     .footerInfo {
@@ -3403,10 +3405,12 @@ body {
 
     .footerBody {
         padding-top: 1px;
-    } 
-    .footerBody::before {
-      display: none;
     }
+
+    .footerBody::before {
+        display: none;
+    }
+
     .mobileFooterLinks {
         display: block;
     }
