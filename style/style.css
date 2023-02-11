@@ -2946,12 +2946,13 @@ body {
     .tabsMenu p {
         padding: 14px 14px;
         padding-left: 0;
-position: relative;
+        position: relative;
     }
 
     .tabsMenu p:hover {
-        border-color:  #b4b4b4;
+        border-color: #b4b4b4;
     }
+
     .tabsMenu p::after {
         content: '';
         background-image: url('../images/down.svg');
@@ -2964,12 +2965,63 @@ position: relative;
         height: 15px;
         transition: 0.3s;
     }
+
     .tabsMenuActive {
         border-bottom: 1px solid #b4b4b4 !important;
     }
 
     .tabsMenuActive::after {
         transform: rotate(-90deg);
+    }
+
+    .itemsBlockItem {
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .items {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .contact {
+
+        position: relative;
+    }
+
+    .joinBlock {
+
+        max-height: none;
+    }
+
+    .contact {
+
+        padding-top: 0px;
+    }
+
+    .join {
+
+        padding-bottom: 45px;
+    }
+
+    .contact {
+        padding-bottom: 1px;
+    }
+
+    .footerLinks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footerInfo {
+        margin: 0 auto;
+    }
+
+    .footerMedia {
+        text-align: center;
+    }
+    .footerBottom > p {
+        margin-right: 0px;
     }
 }
 
