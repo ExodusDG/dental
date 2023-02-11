@@ -3316,10 +3316,10 @@ body {
     }
 
     #messageCheckbox {
-        width: 15px;
-        height: 15px;
+        width: 30px;
+        height: 30px;
         width: auto;
-        flex: 0 0 16px;
+        flex: 0 0 30px;
     }
 
     .informed .container {
