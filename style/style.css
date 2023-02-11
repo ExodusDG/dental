@@ -1518,6 +1518,10 @@ footer {
     border-bottom: 1px solid #cfcfcf;
 }
 
+.headerMobilePhone {
+    display: none;
+}
+
 .containsItem:last-child {
     border-bottom: 1px solid transparent;
 }
@@ -1900,6 +1904,10 @@ footer {
     text-align: center;
     max-width: 90%;
     margin: 0 auto;
+}
+
+.menuList>nav {
+    justify-content: space-between;
 }
 
 .blogTags {
@@ -2365,8 +2373,13 @@ footer {
     }
 }
 
+
 @media (max-width: 768px) {
     .itemsBlock {
+        display: block;
+    }
+
+    .headerMobilePhone {
         display: block;
     }
 
@@ -3023,6 +3036,8 @@ body {
     .footerBottom > p {
         margin-right: 0px;
     }
+
+
 }
 
 @keyframes menuShow {
@@ -3035,4 +3050,9 @@ body {
 
         opacity: 1;
     }
+}
+
+
+.membership {
+    background: url('../images/membership.jpg');
 }
