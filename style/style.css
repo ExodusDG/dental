@@ -3414,6 +3414,73 @@ body {
     .mobileFooterLinks {
         display: block;
     }
+
+    .textSlide {
+        text-align: center;
+    }
+
+    .textSlideDesc {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .customSliderText {
+        padding: 0px 20px;
+    }
+
+    .customSliderImage img {
+        width: 90%;
+        height: 240px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .customSliderImage {
+        text-align: center;
+    }
+
+    .productSlider {
+
+        padding-bottom: 0px;
+    }
+
+    .contactPage {
+        padding-top: 30px;
+    }
+
+    .privacy {
+        padding-top: 58px;
+
+    }
+
+    .privacy::after {
+        display: none;
+    }
+
+    .generalBlock {
+        text-align: center;
+    }
+
+    .productRightInfo {
+        text-align: center;
+    }
+    .productRightBlock {
+        padding-top: 30%;
+        text-align: center;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .servicesDoubleText p {
+        text-align: center !important;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .servicesDoubleText {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 490px) {
