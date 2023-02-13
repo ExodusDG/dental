@@ -2506,11 +2506,12 @@ footer {
         justify-content: space-between;
         margin-top: 20px;
     }
-
     .footerBottom li::after {
-        display: none;
+        content: '|';
+        position: absolute;
+        right: -15px;
+        top: 0;
     }
-
     .sliderBlock {
         padding-bottom: 0px;
     }
@@ -3255,6 +3256,8 @@ body {
         height: 15px;
         transition: 0.3s;
     }
+
+
 }
 
 @media (max-width: 768px) {
@@ -3499,6 +3502,11 @@ body {
         padding-left: 0;
         padding-right: 0;
     }
+    .customSliderText {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
 }
 
 @media (max-width: 490px) {

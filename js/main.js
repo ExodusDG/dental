@@ -50,11 +50,8 @@ const customerSlider = new Swiper('.customerSlider', {
       slidesPerView: 1.2,
       slidesPerGroup: 1,
     },
-    // desktop >= 430 - 990
-    430: {
-      slidesPerView: 3.2,
-      slidesPerGroup: 3,
-    },
+  
+    
     // desktop >= 991
     991: {
       slidesPerView: 3.2,
