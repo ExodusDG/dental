@@ -2506,12 +2506,14 @@ footer {
         justify-content: space-between;
         margin-top: 20px;
     }
+
     .footerBottom li::after {
         content: '|';
         position: absolute;
         right: -25px;
         top: 0;
     }
+
     .sliderBlock {
         padding-bottom: 0px;
     }
@@ -3502,11 +3504,15 @@ body {
         padding-left: 0;
         padding-right: 0;
     }
+
     .customSliderText {
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
+    .contains {
+        text-align: center;
+    }
 }
 
 @media (max-width: 490px) {
@@ -3535,15 +3541,6 @@ body {
 
 .menuWrapper {
     transition: 0.5s;
-}
-
-.icon-enlarge {
-    font-size: 40px;
-    line-height: 15px;
-}
-
-.icon-social--twitter-large:before {
-    content: "";
 }
 
 .swiper-button-disabled {
