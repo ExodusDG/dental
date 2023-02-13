@@ -3328,6 +3328,18 @@ body {
         z-index: 2;
     }
 
+    .membership::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100% !important;
+        height: 370px !important;
+        background: linear-gradient(180.08deg, rgba(26, 24, 25, 0) 13.97%, rgba(26, 24, 25, .43) 28.74%, rgba(26, 24, 25, .71) 43.52%, rgba(26, 24, 25, .92) 60.53%, #1a1819 79.78%) !important;
+        z-index: 2 !important;
+        display: block !important;
+    }
+
     .header .container {
         position: relative;
         z-index: 999;
@@ -3514,6 +3526,7 @@ body {
         text-align: center;
         margin-top: 25px;
     }
+
     .generalBlockText {
         padding-right: 0%;
         padding-left: 0%;
@@ -3525,12 +3538,16 @@ body {
     }
 
     .generalBlockReverse .generalBlockText {
-        
+
         margin-left: 0%;
         width: 90%;
         margin: 0 auto;
         margin-bottom: 50px;
         margin-top: 20px;
+    }
+
+    .privacy h1 {
+        margin-top: 300px;
     }
 }
 
@@ -3551,6 +3568,9 @@ body {
     .membershipContent p {
         margin-bottom: 20px;
     }
+}
+
+@media (max-width: 390px) {
 }
 
 
