@@ -2257,7 +2257,7 @@ footer {
     .mobileMenu {
         position: fixed;
         top: 90px;
-        background: var(--lightDark);
+        background: #1a1919;
         width: 100vw;
         height: 100vh;
         left: 0;
@@ -2301,7 +2301,7 @@ footer {
     }
 
     .mobileMenu {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     .mobileMenu .menuButtons {
@@ -2898,7 +2898,7 @@ body {
     .mobileMenuActive {
         animation-name: menuShow;
         -webkit-animation: menuShow;
-        -webkit-animation-duration: 0.3s;
+        -webkit-animation-duration: 0.5s;
         -webkit-animation-iteration-count: 1;
         -webkit-animation-fill-mode: forwards;
         animation-duration: 0.3s;
@@ -3238,6 +3238,23 @@ body {
         display: flex;
         justify-content: flex-start;
     }
+
+    .menuItem {
+        position: relative;
+    }
+
+    .menuItem::after {
+        content: '';
+        background-image: url('/images/right.svg');
+        background-size: 10px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 5px;
+        top: 13px;
+        width: 15px;
+        height: 15px;
+        transition: 0.3s;
+    }
 }
 
 @media (max-width: 768px) {
@@ -3464,6 +3481,7 @@ body {
     .productRightInfo {
         text-align: center;
     }
+
     .productRightBlock {
         padding-top: 30%;
         text-align: center;
@@ -3500,4 +3518,13 @@ body {
     .membershipContent p {
         margin-bottom: 20px;
     }
+}
+
+
+.navActiveColor {
+    background: #242222 !important;
+}
+
+.menuWrapper {
+    transition: 0.5s;
 }

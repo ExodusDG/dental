@@ -10,7 +10,7 @@ $.each($('.generalBlocks > div'), function (key, value) {
   }
 })
 
-$('.mobileFooterItem').click(function(){
+$('.mobileFooterItem').click(function () {
   $(this).toggleClass('mobileFooterActive')
   $(this).find('.mobileFooterItemLinks').toggleClass('mobileFooterItemLinksActive')
 })
@@ -29,7 +29,7 @@ const swiperText = new Swiper('.swiperText', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
-  
+
 });
 
 const customerSlider = new Swiper('.customerSlider', {
@@ -129,10 +129,11 @@ var menuOpen = false;
 $('.hamburger').click(function () {
   $('.mobileMenu').toggleClass('mobileMenuActive')
   $(this).toggleClass('is-active')
+  $('.menuWrapper').toggleClass('navActiveColor')
 
   if (menuOpen === false) {
     $('body, html').attr('style', 'overflow: hidden')
-    
+
   } else {
     $('body, html').attr('style', 'overflow: scroll')
   }
