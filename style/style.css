@@ -2509,7 +2509,7 @@ footer {
     .footerBottom li::after {
         content: '|';
         position: absolute;
-        right: -15px;
+        right: -25px;
         top: 0;
     }
     .sliderBlock {
