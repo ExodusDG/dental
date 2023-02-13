@@ -3536,3 +3536,16 @@ body {
 .menuWrapper {
     transition: 0.5s;
 }
+
+.icon-enlarge {
+    font-size: 40px;
+    line-height: 15px;
+}
+
+.icon-social--twitter-large:before {
+    content: "";
+}
+
+.swiper-button-disabled {
+    display: none !important;
+}
