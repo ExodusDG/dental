@@ -3058,6 +3058,11 @@ body {
     }
 }
 
+.footerMedia img {
+    width: 40px;
+    margin-right: 10px;
+}
+
 
 .membership {
     background: url('../images/membership.jpg');
