@@ -3514,6 +3514,24 @@ body {
         text-align: center;
         margin-top: 25px;
     }
+    .generalBlockText {
+        padding-right: 0%;
+        padding-left: 0%;
+        margin-left: 0;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .generalBlockReverse .generalBlockText {
+        
+        margin-left: 0%;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 490px) {
